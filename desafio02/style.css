@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(69, 75, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    font-size: 35pt;
+    color: #fff;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifans-serif;
+    margin-top: 550px;
+}
+
+
+
+
+.content{
+    background-color:rgba(40, 38, 38, 0.969) ;
+    padding: 50px;
+    width: 800px;
+    margin-top: 150px;
+    border-radius: 25px;
+    text-align: center;
+    
+
+}
+#bemVindo{
+    font-size: 25pt;
+    color: #fff;
+}
+#comece{
+    margin-top: 17px;
+    color: #fff;
+}
+.btn-container{
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+#btn1{
+    background-color:  rgb(69, 75, 238);
+}
+
+#btn1, #btn2, #btn3{
+height: 50px;
+   width: 90%;
+   border-radius: 17px;
+   color: #fff;
+   font-weight: 500;
+}
+#btn2, #btn3{
+background-color: rgb(67, 64, 64);
+}

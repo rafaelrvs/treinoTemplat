@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background-color: rgba(8, 29, 77, 0.863);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 500px;
+    background-color: rgba(36, 46, 70, 0.863);;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img-container{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: cyan;
+    margin-top: 150px;
+}
+#Telegram{
+    color: #fff;
+    font-size: 24pt;
+}
+
+
+#texto{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.containerBuble{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    margin-top: 15px;
+}
+#buble1
+,#buble2
+,#buble3
+,#buble4
+,#buble5
+,#buble6{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+
+#continue{
+    margin-top: 100px;
+}
+#btn{
+    padding: 17px;
+    background-color: aqua;
+    border-radius: 10px;
+}

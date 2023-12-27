@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+.containerTopo{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.containerImg1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+#img{
+    height: 100%;
+    width: 700px;
+}
+
+.containerCarrocel{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    gap: 15px
+}
+
+.containerCarroce2{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    gap: 15px;
+}
+#emAlta,
+#continuarAssistindo{
+    margin-left: 15px;
+    
+}
+
+
+.menuBaixo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}

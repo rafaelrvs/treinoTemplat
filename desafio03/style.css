@@ -30,7 +30,8 @@ body{
     display: flex;
     justify-content: space-around;
     overflow: hidden;
-    gap: 15px
+    gap: 15px;
+    overflow-x: scroll;
 }
 
 .containerCarroce2{
@@ -40,6 +41,7 @@ body{
     justify-content: space-around;
     overflow: hidden;
     gap: 15px;
+    overflow-x: scroll;
 }
 #emAlta,
 #continuarAssistindo{

@@ -1,0 +1,64 @@
+.container-header{
+    display: flex;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 50px;
+    font-weight: 500;
+
+}
+
+.container-circle{
+    background-color: #e7dede;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.main-circle{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.container-my-card{
+    display: flex;
+    padding: 5px;
+    border-radius: 25px;
+
+    background-color:#e7dede;
+}
+
+.container-my-card P{ 
+    margin-left: 25px;
+}
+.main-premio{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container-premio{
+    display: flex;
+    height: 130px;
+    background-color:#e7dede;
+    border-radius: 25px;
+    width: 190px;
+    margin-top: 25px;
+    align-items: center;
+    
+
+}
+.container-premio P{
+    margin: 15PX;
+}
+.container-dados{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #e7dede;
+    border-radius: 25px;
+    width: 130px;
+    margin-top: 25px;
+}
+
+
+
